@@ -18,8 +18,6 @@ import org.testng.Assert;
 public class DomMutationTest {
 
 	static protected RemoteWebDriver driver;
-	static protected LogInspector logInspector;
-
 	private String webPage = "https://the-internet.herokuapp.com/dynamic_controls";
 
 	@BeforeTest
